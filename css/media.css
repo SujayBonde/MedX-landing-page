@@ -1,0 +1,104 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 10000px;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:575px) {
+    header #logo {
+        font-weight: 700;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .navbar #logo{
+        margin-right: 30%;
+    }
+
+    header ul {
+        list-style: none;
+        margin-right: 33px;
+    }
+    
+
+    header ul li a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    header ul li a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    .banner button {
+        margin: 24px 60px;
+        padding: 10px;
+        border: none;
+        width: 40%;
+        border-radius: 20px;
+        font-family: poppins;
+        font-size: 15px;
+        color: white;
+        background-color: lightseagreen;
+    }
+
+    .box1 {
+        border: 1px solid black !important;
+        border-radius: 5px;
+        margin: 5px 5px;
+        padding: 10px;
+    }
+
+    .box2 {
+        border: 1px solid black !important;
+        border-radius: 5px;
+        margin: 5px 5px;
+        padding: 10px;
+    }
+
+    .box3 {
+        border: 1px solid black !important;
+        border-radius: 5px;
+        margin: 5px 5px;
+        padding: 10px;
+    }
+
+    .box4 {
+        border: 1px solid black !important;
+        border-radius: 5px;
+        margin: 5px 5px;
+        padding: 10px;
+    }
+
+    .box5 {
+        border: 1px solid black !important;
+        border-radius: 5px;
+        margin: 5px 5px;
+        padding: 10px;
+    }
+
+    .box6 {
+        border: 1px solid black !important;
+        border-radius: 5px;
+        margin: 5px 5px;
+        padding: 10px;
+    }
+
+    footer{
+        background: linear-gradient(rgb(120, 193, 218),rgba(0, 0, 255, 0.775));
+        padding: 5%;
+        color: white;
+    }
+    footer h4{
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 9px;
+    }
+}
